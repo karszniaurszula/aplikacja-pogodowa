@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Aplikacja pogodowa</h1>
+    </header>
+    <main>
+        <div class="app-top">
+         <h3 class="cityName"> </h3>
+        <input type="text" placeholder="Podaj nazwę miasta">
+        <button>Sprawdź pogodę</button><br>
+        <img scr="">
+        </div>
+        <div class="app-bottom">
+            <p>Temperatura: <span class="weather"></span></p>
+            <p>Temperatura odczuwalna: <span class="feelsWeather"></span></p>
+            <p>Wilgotność: <span class="humidity"></span></p>
+            <p>Ciśnienie: <span class="pressure"></span></p>
+            <p>Prędkość wiatru: <span class="wind"></span></p>
+        </div>
+    </main>
+    <footer>
+        <p>Projekt WSB Urszula Karsznia 2022</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
